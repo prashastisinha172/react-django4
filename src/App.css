@@ -1,0 +1,150 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+body{
+  font-family: 'Poppins', sans-serif;
+}
+:root{
+    --red:#d01c28;
+    --gray:#2e2e2e;
+}
+*{
+    margin: 0;
+}
+.container{
+    display: flex;
+    align-items: baseline;
+    margin: 0 auto;
+    max-width: 1280px;
+    margin-top: 10px;
+
+    
+}
+.shopping img{
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    
+}
+
+nav.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 80px;
+    align-items: center;
+   
+
+}
+.shoes img{
+display: flex;
+justify-content: space-between;
+align-items: right;
+text-align: right;
+height: 450px;
+width: 450px;
+
+
+object-fit:contain;
+width: 100%;
+
+}
+
+.hero-btn .buy{
+    background-color: transparent;
+    color: black;
+    border: 1px solid var(--gray);
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+ img{
+    height: 90px;
+    width: 90px;
+    
+}
+button{
+    all:unset;
+    padding: 6px 16px;
+    background: var(--red);
+    height: 32px;
+    color: white;
+    font-weight: 500;
+}
+.hero-content h1{
+display: flex;
+justify-content: left;
+margin-right: 20px;
+
+}
+.hero-image img{
+display: flex;
+justify-content: right;
+align-items: right;
+}
+.hero{
+display: flex;
+align-items: center;
+height: calc(100vh-72px);
+}
+.container{
+    margin: 0 auto;
+    max-width: 1280px;
+}
+h1{
+    font-size:400%;
+}
+button{
+    margin: 20px;
+}
+button .two{
+    background-color: white;
+}
+.hero-image img{
+    width: 300px;
+    height: 300px;
+    align-items: flex-end;
+}
+.hero h1{
+    font-weight: 900;
+    line-height: 102px;
+    font-size: 108px;
+}
+.hero h2{
+    font-weight: 600;
+    color: var(--gray);
+}
+.hero-btn{
+    display: flex;
+    gap: "40px";
+}
+.secondary-btn {
+    background: transparent;
+    color: var(--gray);
+    border: 1px solid gray;
+}
+.shopping h2{
+font-size: 14px;
+}
+
+.brand-icons{
+    display: flex;
+    gap: 16px;
+}
+.hero-image{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+}
+.hero-container{
+    display: flex;
+
+}
+.shoes{
+    width: 100%;
+}
+
+
+
+
